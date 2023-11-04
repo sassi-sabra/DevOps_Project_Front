@@ -1,8 +1,8 @@
 FROM node:16 as node
 
-WORKDIR /DEVOPS_PROJECT_FRONT
+WORKDIR /DevOps_Project_Front
 
-COPY . /DEVOPS_PROJECT_FRONT
+COPY . /DevOps_Project_Front
 
 #RUN npm cache clean --force
 RUN npm install --force
