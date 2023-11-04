@@ -11,4 +11,4 @@ RUN npm install @angular/cli
 
 FROM nginx:alpine
 
-COPY --from=node /DevOps_Project_Front\dist\summer-workshop-angular/usr/share/nginx/html
+COPY --from=node /DevOps_Project_Front\dist\summer-workshop-angular /usr/share/nginx/html
