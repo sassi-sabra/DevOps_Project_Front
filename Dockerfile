@@ -1,4 +1,4 @@
-FROM node:14 as node
+FROM node:1 as node
 
 WORKDIR /DEVOPS_PROJECT_FRONT
 
